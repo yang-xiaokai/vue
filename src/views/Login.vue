@@ -1,6 +1,6 @@
 <template>
     <div>
-        <el-container>
+        <el-container class="elc">
             <el-header>
                 <h1 class="logo">欢迎登陆</h1>
             </el-header>
@@ -100,6 +100,10 @@ export default {
   .demo-ruleForm{
       max-width: 500px;
       margin: 0 auto;
+  }
+  .elc{
+    max-width: 500px;
+    margin: 0 auto;
   }
   
 </style>
