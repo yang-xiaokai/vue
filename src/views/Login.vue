@@ -28,8 +28,8 @@ export default {
     data() {
       return {
         ruleForm: {
-          username: '',
-          password: ''
+          username: 'admin',
+          password: 'admin'
         },
         rules: {
           username: [
@@ -47,6 +47,11 @@ export default {
         this.$refs[formName].validate((valid) => {
           if (valid) {
             alert('submit!');
+            this.$axios.post('http://localhost:8081/login',this.ruleForm).then(res=>{
+              console.log(res.headers);
+              console/log(res);
+
+            })
           } else {
             console.log('error submit!!');
             return false;

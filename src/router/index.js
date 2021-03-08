@@ -6,7 +6,7 @@ import BlogEdit from "../views/BlogEdit.vue";
 import BlogDetail from "../views/BlogDetail.vue";
 
 Vue.use(VueRouter)
-
+//配置路由
 const routes = [
   {
     path: "/",
