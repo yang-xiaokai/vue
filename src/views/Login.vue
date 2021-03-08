@@ -29,6 +29,7 @@ export default {
     data() {
       return {
         ruleForm: {
+          //初始化用户名和密码
           username: 'admin',
           password: 'admin'
         },

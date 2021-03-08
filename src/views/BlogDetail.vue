@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div> 
+        //指向页面
         detail
     </div>
 </template>
