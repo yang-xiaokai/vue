@@ -6,6 +6,7 @@
 
 <script>
 export default {
+    //编辑
     name:"BlogEdit"
 }
 </script>
